@@ -66,7 +66,7 @@ void power(int x, int count)
 
 	cout << "число в степени " << count << " = " << result << "\n";
 
-	if (count < 4) power(x, count);
+	if (count < 4) power(x, count); //сделал через рекурсию)))
 }
 
 int main()
